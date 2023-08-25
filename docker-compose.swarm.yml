@@ -1,0 +1,50 @@
+version: '3'
+
+services:
+  user-management-service:
+    image: user-management-service:latest
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=False
+      - DB_NAME=user_management_db
+      - DB_USER=root
+      - DB_PASSWORD=12345
+      - DB_HOST=db
+      - DB_PORT=5432
+    depends_on:
+      - db
+
+    command: bash -c "sleep 3 && ./entrypoint.sh"
+
+  note-service:
+    image: note-service:latest
+    ports:
+      - "8001:8000"
+    environment:
+      - DEBUG=False
+      - DB_NAME=note_service_db
+      - DB_USER=root
+      - DB_PASSWORD=12345
+      - DB_HOST=db
+      - DB_PORT=5432
+      - USER_MANAGEMENT_URL=http://user-management-service:8000/
+    depends_on:
+      - db
+      - user-management-service
+    command: bash -c "sleep 3 && ./entrypoint.sh"
+
+    deploy:
+      replicas: 2
+
+  db:
+    image: note-db:latest
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=12345
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+    
+volumes:
+  postgres_data:
