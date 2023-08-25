@@ -2,13 +2,13 @@
 
 # Build images
 echo "Building UserManagementService image..."
-docker build -t user-management-service ./UserManagementService
+docker build -t user-management-service:latest ./UserManagementService
 
 echo "Building NoteService image..."
-docker build -t note-service ./NoteService
+docker build -t note-service:latest ./NoteService
 
 echo "Building db image..."
-docker build -t note-db ./db
+docker build -t note-db:latest ./db
 
 # Deploy Docker Swarm stack
 STACK_NAME="my-stack"
@@ -16,9 +16,13 @@ COMPOSE_FILE="docker-compose.swarm.yml"
 
 # Check if the stack exists and deploy/update accordingly
 if docker stack ls | grep -q "$STACK_NAME"; then
+  echo "Removing existing services..."
+  docker service rm ${STACK_NAME}_user-management-service
+  docker service rm ${STACK_NAME}_note-service
+
   echo "Updating existing stack: $STACK_NAME"
-  docker stack deploy -c $COMPOSE_FILE $STACK_NAME
+  docker stack deploy --resolve-image=always -c $COMPOSE_FILE $STACK_NAME
 else
   echo "Creating new stack: $STACK_NAME"
-  docker stack deploy -c $COMPOSE_FILE $STACK_NAME
+  docker stack deploy --resolve-image=always -c $COMPOSE_FILE $STACK_NAME
 fi
