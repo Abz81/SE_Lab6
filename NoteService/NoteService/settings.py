@@ -52,6 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'middleware.replica_header_middleware.ReplicaHeaderMiddleware',
 ]
 
 ROOT_URLCONF = 'NoteService.urls'
