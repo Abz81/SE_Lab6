@@ -18,12 +18,13 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 
-from users.views import UserViewSet
+from users.views import UserViewSet, AuthenticationView
 
 router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/authenticate/', AuthenticationView.as_view(), name='authenticate'),
     path('api/', include(router.urls)),
 ]
