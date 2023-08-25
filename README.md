@@ -3,8 +3,7 @@
 * Alireza Ziaee
 * Abdollah Zohrabi
 
-
-![image](https://github.com/Abz81/SE_Lab6/assets/45371919/b2e87659-1311-4753-8aee-7b5239e813b6)
+![image](https://github.com/Abz81/SE_Lab6/assets/45371919/1a77169f-a74f-406a-9cec-503629f87fbf)
 
 
 ## پرسش‌ها
