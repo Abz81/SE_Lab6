@@ -2,7 +2,7 @@
 
 The **NoteService** microservice offers versatile CRUD operations for managing notes. These functionalities are accessible via the `/api/notes` endpoint.
 
-- **Create Note:** To create a new note, initiate a `POST` request to `/api/notes`. Include the `title` and `description` of the note in the request body. User authentication requires providing the `username` and `password` associated with the UserManagementService.
+- **Create Note:** To create a new note, initiate a `POST` request to `/api/notes`. Include the `title` and `content` of the note in the request body. User authentication requires providing the `username` and `password` associated with the UserManagementService.
 
 - **Update Note:** Modify note details using a `PUT` request to `/api/notes/{note_id}`, where `note_id` is the unique identifier of the note. User authentication via `username` and `password` is required.
 
