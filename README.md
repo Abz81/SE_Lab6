@@ -47,5 +47,12 @@ For Windows (PowerShell):
 4. نتیجه‌ی اجرای کامندهای `docker image ls` و  `docker ps` را در تصویرهای زیر مشاهده می‌کنیم.
 ![image](https://github.com/Abz81/SE_Lab6/assets/45371919/d72065dc-96ef-4148-9e8c-5867dce4c9a6)
 ![image](https://github.com/Abz81/SE_Lab6/assets/45371919/4f6a6c4e-76ae-4f29-8d07-d85e2f1ad0f6)
-
+5.  در تصاویر زیر، نتیجه‌ی اجرای پروژه با استفاده از `swarm` را مشاهده می‌کنیم.
+![image](https://github.com/Abz81/SE_Lab6/assets/45371919/de4bd8a4-6fe1-4287-9d38-763f74510700)
+![image](https://github.com/Abz81/SE_Lab6/assets/45371919/acfea028-2e3e-4502-b7b2-0f23f241b36c)
+![image](https://github.com/Abz81/SE_Lab6/assets/45371919/dd1432b3-bd22-44e7-a88c-d182627765a0)
+![image](https://github.com/Abz81/SE_Lab6/assets/45371919/216da9e1-c49f-4d34-9ff7-3c931509bebb)
+![image](https://github.com/Abz81/SE_Lab6/assets/45371919/4e11c02f-7fd0-4b2e-9c04-2f38c823a002)
+![image](https://github.com/Abz81/SE_Lab6/assets/45371919/b20dd543-0018-49fc-bfa1-4754bcc987b7)
+ 
 
