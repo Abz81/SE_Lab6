@@ -11,3 +11,5 @@ The **UserManagementService** microservice provides CRUD operations for managing
 - **Retrieve Specific User:** Obtain specific user information via a `GET` request to `/api/users/{user_id}`, where `user_id` is the unique identifier of the user.
 
 - **Delete User:** Remove a user account with a `DELETE` request to `/api/users/{user_id}`, where `user_id` is the unique identifier of the user. This action deletes the specified user.
+
+- **Authentication:** Use the `/api/authenticate` endpoint to authenticate users. Send a `POST` request with `username` and `password` parameters to receive the corresponding `user_id`.
