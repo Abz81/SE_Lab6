@@ -1,4 +1,6 @@
 # SE_Lab6
+
+توضیحات مربوط به هر `MicroService` در `README` مربوط به همان پروژه آمده‌است.
 ## Team members
 * Alireza Ziaee
 * Abdollah Zohrabi
