@@ -7,7 +7,7 @@
 
 
 ## پرسش‌ها
-1.
+1.در این تمرین از جملخ نمودار هایی که برای مدل‌سازی معماری MicroService استفاده کردیم Component Diagram وCommunication Diagram بودند
 
 
 2.               
