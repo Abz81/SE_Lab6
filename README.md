@@ -3,8 +3,23 @@
 * Alireza Ziaee
 * Abdollah Zohrabi
 
+## Setup
+
+For Linux:
+
+```bash
+chmod +x deploy.sh
+./deploy.sh
+```
+For Windows (PowerShell):
+
+```powershell
+.\deploy.ps1
+```
+
   <div dir='rtl'>
 
+## معماری
 ![image](https://github.com/Abz81/SE_Lab6/assets/45371919/1a77169f-a74f-406a-9cec-503629f87fbf)
 
 
