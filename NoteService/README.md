@@ -11,3 +11,6 @@ The **NoteService** microservice offers versatile CRUD operations for managing n
 - **Retrieve Specific Note:** Fetch a specific note by making a `GET` request to `/api/notes/{note_id}`, where `note_id` is the unique identifier of the note. No authentication is required.
 
 - **Delete Note:** Delete a note using a `DELETE` request to `/api/notes/{note_id}`, where `note_id` is the unique identifier of the note. Include `username` and `password` for authentication. This action permanently removes the selected note.
+
+
+**Replica Identification:** When using Docker Swarm with multiple replicas of NoteService, an `X-Replica-ID` header is included in the response. This header contains the `replica_id` value, allowing you to identify which service instance processed the request.
