@@ -7,7 +7,11 @@
 
 
 ## پرسش‌ها
-1.در این تمرین از جملخ نمودار هایی که برای مدل‌سازی معماری MicroService استفاده کردیم Component Diagram وCommunication Diagram بودند
+1.در این تمرین از جملخ نمودار هایی که برای مدل‌سازی معماری MicroService استفاده کردیم `Component Diagram` و`Communication Diagram` بودند.
+![Capture13](https://github.com/Abz81/SE_Lab6/assets/101315890/6631e216-d65c-42e6-a7d9-eacc26203dd8)
+
+![Capture14](https://github.com/Abz81/SE_Lab6/assets/101315890/6ef8a2b5-9d12-44e0-9526-bbbeb1cf9ae5)
+
 
 
 2.               
