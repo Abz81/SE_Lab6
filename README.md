@@ -44,4 +44,8 @@ For Windows (PowerShell):
    ![image](https://github.com/Abz81/SE_Lab6/assets/45371919/20ac29f6-686e-4e8e-976c-46292479eb5e)
 3. در تصویر زیر عملیات‌های `build` داکرفایل و اجرای `container` آمده‌است. همچنین ریکوئست‌های ایجاد کاربر و دریافت کاربران نیز برای تست اجرای درست در کامندلاین زده‌شده‌اند.
   ![image](https://github.com/Abz81/SE_Lab6/assets/45371919/1fe5ddfd-5b76-4bb6-8b98-97dedbfc9bdd)
+4. نتیجه‌ی اجرای کامندهای `docker image ls` و  `docker ps` را در تصویرهای زیر مشاهده می‌کنیم.
+![image](https://github.com/Abz81/SE_Lab6/assets/45371919/d72065dc-96ef-4148-9e8c-5867dce4c9a6)
+![image](https://github.com/Abz81/SE_Lab6/assets/45371919/4f6a6c4e-76ae-4f29-8d07-d85e2f1ad0f6)
+
 
